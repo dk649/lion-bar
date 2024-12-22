@@ -6,6 +6,7 @@
     <link href="./output.css" rel="stylesheet" />
     <script defer src="./assets/fontawesome/js/fontawesome.min.js"></script>
     <script defer src="./assets/fontawesome/js/solid.min.js"></script>
+    <script src="script.js"></script>
   </head>
   <body>
     <main>
@@ -46,6 +47,12 @@
         </h2>
         <div class="max-w-screen-lg mx-auto mt-20">
           <div class="flex">
+            <button
+              id="previous"
+              class="text-5xl flex items-center justify-center p-2 relative"
+            >
+              <i class="fas fas fa-angle-left"></i>
+            </button>
             <div
               id="carousel"
               class="mt-4 flex w-full gap-4 pd-5 snap-x overflow-x-auto scroll-smooth flex-1"
@@ -83,6 +90,12 @@
                 <h6 class="text-gray-500">20st July 2025 9pm - Main Stage</h6>
               </div>
             </div>
+            <button
+              id="next"
+              class="text-5xl flex items-center justify-center p-2 relative"
+            >
+              <i class="fas fa-angle-right"></i>
+            </button>
           </div>
         </div>
       </section>
