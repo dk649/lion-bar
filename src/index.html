@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <script defer src="./assets/fontawesome/js/fontawesome.min.js"></script>
+    <script defer src="./assets/fontawesome/js/solid.min.js"></script>
+  </head>
+  <body>
+    <main>
+      <nav
+        class="bg-zinc-500 w-full h-20 flex items-center justify-between p-2 sticky top-0"
+      >
+        <div>The Lion Bar</div>
+        <ul class="list-none flex items-center justify-items-end gap-4">
+          <li class="hover:cursor-pointer hover:text-zinc-100">Home</li>
+          <li class="hover:cursor-pointer hover:text-zinc-100">Tickets</li>
+          <li class="hover:cursor-pointer hover:text-zinc-100">Contact</li>
+        </ul>
+      </nav>
+      <section>
+        <div
+          style="background-image: url('./assets/images/barbackground.jpg')"
+          class="bg-cover bg-center bg-fixed flex h-[calc(100vh-200px)] min-h-[400px] flex-col items-center justify-center"
+        ></div>
+      </section>
+      <div class="font-bold text-center mt-10">
+        keep me updated with news and promotions
+      </div>
+      <form class="mt-3 flex gap-2 items-center justify-center">
+        <input
+          type="email"
+          placeholder="Email address"
+          class="p-3 rounded-lg border border-white/40 bg-white/30 backdrop-blur-md font-bold text-sky-900 placeholder-zinc-500"
+        />
+        <button
+          class="bg-zinc-600 p-3 rounded-lg text-white hover:bg-slate-800"
+        >
+          Subscribe
+        </button>
+      </form>
+      <section>
+        <h2 class="text-center text-3xl text-zinc-500 mt-10">
+          Check out the entertainment this month
+        </h2>
+        <div class="max-w-screen-lg mx-auto mt-20">
+          <div class="flex">
+            <div
+              id="carousel"
+              class="mt-4 flex w-full gap-4 pd-5 snap-x overflow-x-auto scroll-smooth flex-1"
+            >
+              <div class="min-w-[80%] md:min-w-[40%]">
+                <div
+                  style="background-image: url('./assets/images/band1.jpg')"
+                  class="h-80 w-full snap-center rounded-xl bg-cover bg-center shadow-md shadow-black/20"
+                ></div>
+                <h5 class="mt-2">Corduroy Gary</h5>
+                <h6 class="text-gray-500">1st July 2025 9pm - Main Stage</h6>
+              </div>
+              <div class="min-w-[80%] md:min-w-[40%]">
+                <div
+                  style="background-image: url('./assets/images/band2.jpg')"
+                  class="h-80 w-full snap-center rounded-xl bg-cover bg-center shadow-md shadow-black/20"
+                ></div>
+                <h5 class="mt-2">Philip Monsanto</h5>
+                <h6 class="text-gray-500">6st July 2025 9pm - Main Stage</h6>
+              </div>
+              <div class="min-w-[80%] md:min-w-[40%]">
+                <div
+                  style="background-image: url('./assets/images/band3.jpg')"
+                  class="h-80 w-full snap-center rounded-xl bg-cover bg-center shadow-md shadow-black/20"
+                ></div>
+                <h5 class="mt-2">The Poges</h5>
+                <h6 class="text-gray-500">12st July 2025 9pm - Main Stage</h6>
+              </div>
+              <div class="min-w-[80%] md:min-w-[40%]">
+                <div
+                  style="background-image: url('./assets/images/band4.jpg')"
+                  class="h-80 w-full snap-center rounded-xl bg-cover bg-center shadow-md shadow-black/20"
+                ></div>
+                <h5 class="mt-2">The Pikes</h5>
+                <h6 class="text-gray-500">20st July 2025 9pm - Main Stage</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
